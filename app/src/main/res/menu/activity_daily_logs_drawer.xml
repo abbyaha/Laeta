@@ -2,35 +2,67 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+        <item android:title="Activity Logs">
+            <menu>
+                <item
+                    android:id="@+id/daily_logs"
+                    android:icon="@drawable/ic_activity_logs"
+                    android:title="Today's Log" />
+                <item
+                    android:id="@+id/past_logs"
+                    android:icon="@drawable/ic_past_al"
+                    android:title="Past Activity Logs" />
+                <item
+                    android:id="@+id/log_trends"
+                    android:icon="@drawable/ic_al_trends"
+                    android:title="View Trends" />
+            </menu>
+        </item>
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+    <group android:checkableBehavior="single">
+        <item android:title="Thought Records">
+            <menu>
+                <item
+                    android:id="@+id/new_record"
+                    android:icon="@drawable/ic_thought_record"
+                    android:title="New Thought Record" />
+                <item
+                    android:id="@+id/past_records"
+                    android:icon="@drawable/ic_past_tr"
+                    android:title="Past Thought Records" />
+                <item
+                    android:id="@+id/record_trends"
+                    android:icon="@drawable/ic_tr_trends"
+                    android:title="View Trends" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Help">
+            <menu>
+                <item
+                    android:id="@+id/links"
+                    android:icon="@drawable/ic_link"
+                    android:title="Helpful Links" />
+                <item
+                    android:id="@+id/local_help"
+                    android:icon="@drawable/ic_map_marker"
+                    android:title="Help Near You" />
+                <item
+                    android:id="@+id/numbers"
+                    android:icon="@drawable/ic_phone"
+                    android:title="Call Centers" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
 
 </menu>

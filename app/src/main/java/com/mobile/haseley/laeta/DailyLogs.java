@@ -71,17 +71,25 @@ public class DailyLogs extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.daily_logs) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.past_logs) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.log_trends) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.new_record) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.past_records) {
+
+        } else if (id == R.id.record_trends) {
+
+        } else if (id == R.id.links) {
+
+        } else if (id == R.id.local_help) {
+
+        } else if (id == R.id.numbers) {
+
+        } else if (id == R.id.settings) {
 
         }
 
