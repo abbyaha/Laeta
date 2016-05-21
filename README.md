@@ -10,4 +10,4 @@ Mobile platform for thought records and activity logs to help users walk through
 
 <i>This readme is a WIP until I work on the project more.</i>
 
-Note to self: 1. create and about 2. link to icons8 in about
+Note to self: 1. create an about 2. link to icons8 in about
