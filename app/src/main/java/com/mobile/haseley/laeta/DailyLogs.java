@@ -35,6 +35,7 @@ public class DailyLogs extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
+        //TODO - http://stackoverflow.com/questions/4038479/android-go-back-to-previous-activity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
